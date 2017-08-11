@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude specific shared preferences that contain GCM registration Id -->
+    This project is based on Udacity Android Basics course. A practise project to get the author
+    more familiar with Android development once again.
+</full-backup-content>
