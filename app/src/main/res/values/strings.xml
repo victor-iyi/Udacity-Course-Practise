@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Udacity Practise</string>
+    <string name="victor">Victor</string>
+    <string name="iyiola">Iyiola</string>
+    <string name="afolabi">Afolabi</string>
+    <string name="invited">You\'re Invited!</string>
+    <string name="cat_image">Cat Image</string>
+    <string name="bonfire_at_the_beach">Bonfire at the beach</string>
+    <string name="write_a_message">Write a message</string>
+    <string name="send_message">Send message</string>
+    <string name="open_gallery">Open gallery</string>
+    <string name="chat_background_image">Chat background image</string>
+    <string name="natalie">Natalie</string>
+    <string name="ben">Ben</string>
+    <string name="lyla">Lyla</string>
+    <string name="jennie">Jennie</string>
+    <string name="kagure">Kagure</string>
+    <string name="kunal">Kunal</string>
+    <string name="omoju">Omoju</string>
+    <string name="me">Me</string>
+    <string name="amy">Amy</string>
+</resources>
