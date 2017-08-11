@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:id="@+id/dad">
 
+    <!--
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -37,4 +40,132 @@
             android:src="@android:drawable/ic_menu_send"
             android:contentDescription="@string/send_message" />
     </LinearLayout>
+    -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="@string/ben"
+        android:id="@+id/ben_text_view"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/ben_text_view"
+        android:layout_toStartOf="@id/ben_text_view"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="@string/kunal"
+        android:id="@+id/kunal_text_view"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/ben_text_view"
+        android:layout_toEndOf="@id/ben_text_view"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="@string/kagure"
+        android:id="@+id/kagure_text_view"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="@string/lyla"
+        android:id="@+id/lyla_text_view"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/lyla_text_view"
+        android:layout_toEndOf="@id/lyla_text_view"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="@string/me"
+        android:id="@+id/me_text_view"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/lyla_text_view"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="@string/natalie"
+        android:id="@+id/natalie_text_view"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="@string/jennie"
+        android:id="@+id/jennie_text_view"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/jennie_text_view"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="@string/omoju"
+        android:id="@+id/omoju_text_view"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/omoju_text_view"
+        android:layout_margin="3dp"
+        android:padding="3dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:text="@string/amy"
+        android:id="@+id/amy_text_view"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
 </RelativeLayout>
