@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright Victor I. Afolabi © 2017. All rights reserved.
+  -->
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <ImageView
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:contentDescription="@string/lizard_background_image"
+    android:scaleType="centerCrop"
+    android:src="@drawable/lizard" />
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:contentDescription="@string/lizard_background_image"
-        android:scaleType="centerCrop"
-        android:src="@drawable/lizard" />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/twenty_dp"
+    android:text="@string/happy_birthday_gloria"
+    android:textColor="@color/white"
+    android:textSize="@dimen/thirty_sp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="@dimen/twenty_dp"
-        android:text="@string/happy_birthday_gloria"
-        android:textColor="@color/white"
-        android:textSize="@dimen/thirty_sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:padding="@dimen/twenty_dp"
-        android:text="@string/from_victor"
-        android:textColor="@color/white"
-        android:textSize="@dimen/thirty_sp"
-        android:textStyle="italic" />
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:padding="@dimen/twenty_dp"
+    android:text="@string/from_victor"
+    android:textColor="@color/white"
+    android:textSize="@dimen/thirty_sp"
+    android:textStyle="italic" />
 
 </RelativeLayout>

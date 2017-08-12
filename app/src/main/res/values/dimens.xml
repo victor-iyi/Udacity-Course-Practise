@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright Victor I. Afolabi © 2017. All rights reserved.
+  -->
+
 <resources>
 
-    <!-- Device-Independent Pixels -->
-    <dimen name="five_dp">5dp</dimen>
-    <dimen name="fifteen_dp">15dp</dimen>
-    <dimen name="sixteen_dp">16dp</dimen>
-    <dimen name="twenty_dp">20dp</dimen>
+  <!-- Device-Independent Pixels -->
+  <dimen name="five_dp">5dp</dimen>
+  <dimen name="fifteen_dp">15dp</dimen>
+  <dimen name="sixteen_dp">16dp</dimen>
+  <dimen name="twenty_dp">20dp</dimen>
 
-    <!-- Scaled Pixels -->
-    <dimen name="twenty_four_sp">24sp</dimen>
-    <dimen name="sixteen_sp">16sp</dimen>
-    <dimen name="thirty_sp">30sp</dimen>
-    <dimen name="thirty_four_sp">34sp</dimen>
-    <dimen name="thirty_six_sp">36sp</dimen>
+  <!-- Scaled Pixels -->
+  <dimen name="twenty_four_sp">24sp</dimen>
+  <dimen name="sixteen_sp">16sp</dimen>
+  <dimen name="thirty_sp">30sp</dimen>
+  <dimen name="thirty_four_sp">34sp</dimen>
+  <dimen name="thirty_six_sp">36sp</dimen>
 
 </resources>

@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright Victor I. Afolabi © 2017. All rights reserved.
+  -->
+
 <resources>
-    <color name="colorPrimary">#4caf50</color>
-    <color name="colorPrimaryDark">#43a047</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="white">#FFFFFF</color>
-    <color name="green">#009688</color>
-    <color name="black">#424242</color>
-    <color name="blue">#01579b</color>
+  <color name="colorPrimary">#4caf50</color>
+  <color name="colorPrimaryDark">#43a047</color>
+  <color name="colorAccent">#FF4081</color>
+  <color name="white">#FFFFFF</color>
+  <color name="green">#009688</color>
+  <color name="black">#424242</color>
+  <color name="blue">#01579b</color>
 </resources>
