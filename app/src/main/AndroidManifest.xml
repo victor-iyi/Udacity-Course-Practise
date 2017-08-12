@@ -12,6 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+
         <!-- Layout Example -->
         <activity android:name=".LayoutsExample">
             <intent-filter>
@@ -19,6 +20,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <!-- Layout Relative -->
         <activity android:name=".LayoutsRelative">
             <intent-filter>
@@ -26,13 +28,23 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <!-- Happy Birthday -->
         <activity android:name=".HappyBirthday">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- Quantity And Order -->
+        <activity android:name=".QuantityAndOrder">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
