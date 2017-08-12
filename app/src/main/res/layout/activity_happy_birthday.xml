@@ -13,10 +13,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="@dimen/five_dp"
+        android:padding="@dimen/twenty_dp"
         android:text="@string/happy_birthday_gloria"
         android:textColor="@color/white"
-        android:textSize="@dimen/thirty_six_sp" />
+        android:textSize="@dimen/thirty_sp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -24,10 +24,10 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:padding="@dimen/five_dp"
+        android:padding="@dimen/twenty_dp"
         android:text="@string/from_victor"
         android:textColor="@color/white"
-        android:textSize="@dimen/thirty_six_sp"
+        android:textSize="@dimen/thirty_sp"
         android:textStyle="italic" />
 
 </RelativeLayout>
