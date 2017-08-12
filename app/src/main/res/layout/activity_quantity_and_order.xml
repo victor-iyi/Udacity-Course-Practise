@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright Victor I. Afolabi © 2017. All rights reserved.
   -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
+  android:padding="@dimen/fifteen_dp"
   android:orientation="vertical">
 
   <TextView
@@ -17,6 +17,21 @@
 
   <TextView
     android:id="@+id/quantity_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/sixteen_dp"
+    android:text="@string/_0"
+    android:textSize="@dimen/twenty_four_sp" />
+
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/sixteen_dp"
+    android:text="@string/price"
+    android:textSize="@dimen/twenty_four_sp" />
+
+  <TextView
+    android:id="@+id/price_text_view"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/_0"
