@@ -22,4 +22,7 @@
     <string name="lizard_background_image">Lizard background Image</string>
     <string name="happy_birthday_gloria">Happy Birthday, Gloria!</string>
     <string name="from_victor">From, Victor!</string>
+    <string name="quantity">Quantity</string>
+    <string name="_0">0</string>
+    <string name="order">Order</string>
 </resources>
