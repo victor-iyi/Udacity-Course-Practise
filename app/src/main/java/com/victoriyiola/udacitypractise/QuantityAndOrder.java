@@ -15,6 +15,8 @@ import java.text.NumberFormat;
 
 public class QuantityAndOrder extends AppCompatActivity {
 
+  private int quantity = 0;
+
   @Override
   protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -27,8 +29,7 @@ public class QuantityAndOrder extends AppCompatActivity {
    * @param view View
    */
   public void submitOrder(View view) {
-    displayPrice(77 * 2 + 1);
-    displayQuantity(2 * 5);
+    displayPrice(quantity * 5);
   }
 
   /**
@@ -51,7 +52,18 @@ public class QuantityAndOrder extends AppCompatActivity {
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N)
       priceTextView.setText(NumberFormat.getCurrencyInstance().format(price));
     else
-      priceTextView.setText(String.format("$%s", String.valueOf(price)));
+      priceTextView.setText(String.format("$%s.00", String.valueOf(price)));
+  }
+
+  public void increment(View view) {
+    quantity++;
+    displayQuantity(quantity);
+  }
+
+  public void decrement(View view) {
+    if (quantity > 0)
+      quantity--;
+    displayQuantity(quantity);
   }
 
 }

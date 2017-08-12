@@ -5,8 +5,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  android:padding="@dimen/fifteen_dp"
-  android:orientation="vertical">
+  android:orientation="vertical"
+  android:padding="@dimen/fifteen_dp">
 
   <TextView
     android:layout_width="wrap_content"
@@ -15,13 +15,43 @@
     android:text="@string/quantity"
     android:textSize="@dimen/twenty_four_sp" />
 
-  <TextView
-    android:id="@+id/quantity_text_view"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginBottom="@dimen/sixteen_dp"
-    android:text="@string/_0"
-    android:textSize="@dimen/twenty_four_sp" />
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+      android:id="@+id/increment_button"
+      android:layout_width="@dimen/_48dp"
+      android:layout_height="@dimen/_48dp"
+      android:contentDescription="@string/increment_button"
+      android:onClick="increment"
+      android:scaleType="centerCrop"
+      android:src="@android:drawable/ic_input_add" />
+
+    <TextView
+      android:id="@+id/quantity_text_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="@dimen/fifteen_dp"
+      android:layout_marginLeft="@dimen/fifteen_dp"
+      android:layout_marginRight="@dimen/fifteen_dp"
+      android:layout_marginStart="@dimen/fifteen_dp"
+      android:layout_toEndOf="@id/increment_button"
+      android:layout_toRightOf="@id/increment_button"
+      android:text="@string/_0"
+      android:textSize="@dimen/thirty_four_sp" />
+
+    <ImageButton
+      android:layout_width="48dp"
+      android:layout_height="48dp"
+      android:layout_toEndOf="@id/quantity_text_view"
+      android:layout_toRightOf="@id/quantity_text_view"
+      android:contentDescription="@string/decrement_button"
+      android:onClick="decrement"
+      android:scaleType="centerCrop"
+      android:src="@android:drawable/presence_busy" />
+
+  </RelativeLayout>
 
   <TextView
     android:layout_width="wrap_content"
@@ -35,7 +65,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/_0"
-    android:textSize="@dimen/twenty_four_sp" />
+    android:textSize="@dimen/thirty_four_sp" />
 
   <Button
     android:layout_width="wrap_content"
