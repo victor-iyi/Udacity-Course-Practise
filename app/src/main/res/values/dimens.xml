@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Device-Independent Pixels -->
     <dimen name="fifteen_dp">15dp</dimen>
-    <dimen name="thirty_two_sp">32sp</dimen>
+    <dimen name="five_dp">5dp</dimen>
+
+    <!-- Scaled Pixels -->
+    <dimen name="thirty_six_sp">36sp</dimen>
+
 </resources>
