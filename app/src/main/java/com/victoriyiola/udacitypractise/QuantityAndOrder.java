@@ -55,11 +55,23 @@ public class QuantityAndOrder extends AppCompatActivity {
       priceTextView.setText(String.format("$%s.00", String.valueOf(price)));
   }
 
+  /**
+   * Increments the quantity by 1.
+   * The quantity can be as high as possible.
+   *
+   * @param view View
+   */
   public void increment(View view) {
     quantity++;
     displayQuantity(quantity);
   }
 
+  /**
+   * Decrements the quantity by 1.
+   * It is important to know that the quantity cannot be less than 1
+   *
+   * @param view View
+   */
   public void decrement(View view) {
     if (quantity > 0)
       quantity--;
