@@ -9,7 +9,7 @@
   ~  Phone no: +234 814 120 5245
   ~  GitHub: <a href="https://github.com/victor-iyiola">victor-iyiola</a>
   ~
-  ~  Date: 12, 8 2017.
+  ~  Date: 17, 8 2017.
   ~
   ~ Copyright Victor I. Afolabi © 2017. All rights reserved.
   -->
@@ -38,6 +38,7 @@
       android:contentDescription="@string/increment_button"
       android:onClick="increment"
       android:scaleType="centerCrop"
+      android:background="@android:color/transparent"
       android:src="@android:drawable/ic_input_add"/>
 
     <TextView
@@ -59,6 +60,7 @@
       android:layout_toEndOf="@id/quantity_text_view"
       android:layout_toRightOf="@id/quantity_text_view"
       android:contentDescription="@string/decrement_button"
+      android:background="@android:color/transparent"
       android:onClick="decrement"
       android:scaleType="centerCrop"
       android:src="@android:drawable/presence_busy"/>
